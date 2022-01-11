@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tarjeta de crédito válida</title>
+	<link rel="stylesheet" href="card.css">
+</head>
+<body>
+	<div class="contenedor">
+
+		<!-- Tarjeta -->
+		<section class="tarjeta" id="tarjeta">
+			<div class="logo-marca" id="logo-marca">
+			</div>
+				<img src="img/chip-tarjeta.png" class="chip" alt="">				
+			<div class="datos">
+				<div class="grupo" id="numero">
+					<p class="label">Número Tarjeta</p>
+					<p class="numero">#### #### #### ####</p>
+                    
+			    <div class="grupo" id="nombre">
+					<p class="label">Nombre</p>
+					<p class="nombre">-</p>
+			</div>
+			
+			<div class="flexbox">				
+				<div class="grupo" id="expiracion">
+					<p class="label">Expiracion</p>
+					<p class="expiracion"><span class="month">MM</span> / <span class="year">AA</span></p>									
+			</div>
+			<div class="grupo" id="ccv">
+					<p class="label">CCV</p>
+					<p class="ccv"></p>						
+			</div>
+				</div>
+				</div>
+			</div>
+		 </section>
+	
+		 <!--Formulario-->
+		<form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+			<div class="grupo">
+				<label for="inputNumero">Número Tarjeta</label>
+				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+			</div>
+			<div class="grupo">
+				<label for="inputNombre">Nombre</label>
+				<input type="text" id="inputNombre" maxlength="30" autocomplete="off">
+			</div>
+		    <div class="flexbox">
+				<div class="grupo-expira">
+					<label for="selectMonth">Expiracion</label>
+					<div class="flexbox">
+						<div class="grupo-select">
+							<select name="month" id="selectMonth">
+								<option disabled selected>Mes</option>
+							</select>
+							<img src="img/chevron-down.svg" alt="">
+						</div>
+						<div class="grupo-select">
+							<select name="year" id="selectYear">
+								<option disabled selected>Año</option>
+							</select>
+							<img src="img/chevron-down.svg" alt="">
+						</div>
+					</div>
+				</div>	
+				<div class="grupo ccv">
+					<label for="inputCCV">CCV</label>
+					<input type="text" id="inputCCV" maxlength="3">
+				</div>
+			</div>
+			<button class="btn-validar" id="btnValidar">Validar</button>
+			<button class="btn-pagar" id="btnPagar" disabled>Pagar</button>
+		</form>
+	</div>	 
+	<script src="card.js"></script>
+	<script src="index.js" type="module"></script>
+</body>
+</html>

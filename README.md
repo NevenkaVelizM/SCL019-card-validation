@@ -33,6 +33,7 @@ de pagar con tarjeta de crédito, ya que de momento solo cuenta con pago vía tr
 Por ello, necesita la validación de dicha tarjeta para que se pueda procesar el pago de sus clientes.  
 
 Objetivos: Validación del número de tarjeta 
+
 La aplicación web debe permitir al usuario insertar el número de la tarjeta que quiere validar, y así 
 podrá visualizar si éste es válido o inválido.
 A este número de tarjeta se le deben ocultar 12 dígitos, de los 16 que tiene en total y finalmente en el 

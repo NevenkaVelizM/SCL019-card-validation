@@ -54,5 +54,5 @@ de su compra.
 
 ### 3.4 Prototipo final 
 
-
+https://www.figma.com/file/7WZXjv3PffmNRAXmWZt9RI/Prototipo-Card-Validation
 

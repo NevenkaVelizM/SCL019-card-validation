@@ -22,7 +22,11 @@ los dígitos de la tarjeta menos los últimos cuatro.
 
 ## 2. Imagen final del Proyecto
 
+![Alt index-html](src/img/index-html.png)
 
+![Alt tarjeta-valida](src/img/tarjeta-valida.png)
+
+![Alt tarjeta-invalida](src/img/tarjeta-invalida.png)
 
 ## 3. Investigación UX
 
@@ -49,7 +53,7 @@ de su compra.
 
 ### 3.3 Prototipo inicial 
 
-
+![Alt prototipo-inicial](src/img/prototipo-inicial.jpg)
 
 ### 3.4 Prototipo final 
 

@@ -1,0 +1,35 @@
+body img {
+    position: absolute;
+    width: 1520px;
+    height: 944px;
+    left: 0px;
+    top: 80px;
+    
+    }
+        
+    .contenedor .btn-uno img {
+    position: absolute;
+    width: 198px;
+    height: 47px;
+    left: 258px;
+    top: 618px;
+    
+    }
+    
+    .contenedor .btn-dos img {
+    position: absolute;
+    width: 198px;
+    height: 47px;
+    left: 669px;
+    top: 618px;
+    
+    }
+    
+    .contenedor .btn-tres img {
+    position: absolute;
+    width: 198px;
+    height: 47px;
+    left: 1068px;
+    top: 615px;
+    
+    }
